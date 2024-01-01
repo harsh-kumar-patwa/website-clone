@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header id="home-button" class="home">
+
+        <nav class="upper-nav">
+            <div class="contact-and-date-time">
+                <div class="phone">
+                <i class="fa-regular fa-address-book"></i>
+                <p class="ph-no">+1 5589 556382 55</p>
+                </div>
+                <div class="time">
+                <i class="fa-regular fa-clock"></i>
+                <p class="open-time">Mon-Sat: 8:00 AM - 23:00 PM</p>
+                </div>
+            </div>
+        </nav>
+
+        <nav class="lower-nav">
+            <div class="lower-nav-buttons">
+                <div class="resturant-name">
+                <p >LOREM-IPSUM</p>
+                </div>
+                <div >
+                    <ul class="nav-buttons">
+                        <a href="#home-button">Home</a>
+                        <a href="#about-button">About</a>
+                        <a href="#menu-button">Menu</a>
+                        <a href="#specials-button">Specials</a>
+                        <a href="#">Events</a>
+                        <a href="#">Chefs</a>
+                        <a href="#">Gallery</a>
+                        <a href="#">Drop Down</a>
+                        <a href="#">Contact</a>
+                        <a href="#" class="book-btn">Book a table</a>
+                    </ul>
+                </div>
+        </nav>
+        <section >
+            <div id="rest-about">
+                <div class="res-name-center">
+                    <h1 class="res-name-head-line">Lorem Ipsum Dolor </h1>
+                    <p class="res-name-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam officia, molestias velit aut delectus consectetur vero veniam cupiditate ducimus, suscipit, saepe ullam deleniti aperiam est ipsam repudiandae sequi minima odio.</p>
+                    <div class="res-name-center-button">
+                        <button class="our-menu">OUR MENU</button>
+                        <button class="book-table">BOOK A TABLE</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </header>
+
+    <section id="about-button" class="About">
+        <div class="background-for-navigation"></div>
+        <div class="beer-text-content">
+            <div class="beer-glass-image">
+                <img src="about.jpg" alt="beerGlassImage">
+            </div>
+            <div class="about-text">
+                <div class="one-text">
+                    <h2> Lorem ipsum dolor sit,elit.lncidunt deleniti vero suscipit blanditiis possimus.</h2>
+                </div>
+                <div class="two-text">
+                
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus veritatis ullam in eveniet. Eos deleniti earum temporibus adipisci! <br><br>Rem nobis quasi omnis velit qui reprehenderit recusandae nisi molestiae, facere consectetur?</p>
+                </div>
+                <br>
+                <div class="three-text">
+                    <div class="three-text-one">
+                        <i class="fa-solid fa-check-double"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+                    </div>
+                    <div class="three-text-two">
+                        <i class="fa-solid fa-check-double"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+                    </div>
+                    <div class="three-text-three">
+                        <i class="fa-solid fa-check-double"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+                    </div>
+
+                </div>
+                <div class="two-text" id="text-four">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus veritatis ullam in eveniet. Eos deleniti earum temporibus adipisci!
+
+                        Rem nobiconsectetur?</p>
+                </div>
+            </div>
+        </div>
+        <div class="why-us">
+            <h2 >Why Choose</h2>
+            <h2 id="our">Our</h2>
+            <p>omnis velit qui reprehenderit recusandae nisi molestia</p>
+        </div>
+        <div class="testimonial-why-us">
+            <div class="testimonials-sample testimonials-sample-design">
+                <h2>01</h2>
+                <h3> Lorem Ipsum</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, dignissimos reprehenderit.</p>
+            </div>
+            <div class="testimonials-sample testimonials-sample-design">
+                <h2>02</h2>
+                <h3> Repellat Nihil</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, dignissimos reprehenderit.</p>
+
+            </div>
+            <div class="testimonials-sample testimonials-sample-design">
+                <h2>03</h2>
+                <h3> Ad ad Velein</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, dignissimos reprehenderit.</p>
+
+            </div>
+            
+        </div>
+
+    </section>
+
+    <section id="menu-button" class="menu">
+        <div class="background-for-navigation"></div>
+        <div class="check-our-tasty-menu">
+            <h2>Check our tasty</h2>
+            <h2 id="h2-menu">Menu</h2>
+        </div>
+        <div class="button-for-menus">
+            <button id="show-all" href onclick="toggleButton(this)">Show All</button>
+            <button id="starters" onclick="toggleButton(this)">Starters</button>
+            <button id="salads" onclick="toggleButton(this)">Salads</button>
+            <button id="speciality" onclick="toggleButton(this)">Speciality</button>
+        </div>
+        <div class="menu-show-all menu-div">
+            <div class="menu-items">
+                <div>
+                    <h3 id="item-name">Lobster&nbsp;Bisque</h3>
+                    <div class="dashed"></div>
+                    <h3 id="item-price">$5.95</h3>
+                </div>
+                <div><p id="item-description">Lore, ipsum , fraction, cayerei</p></div>
+            </div>
+            <div class="menu-items">
+                <div>
+                    <h3 id="item-name">Lobster&nbsp;Bisque</h3>
+                    <div class="dashed"></div>
+                    <h3 id="item-price">$5.95</h3>
+                </div>
+                <div><p id="item-description">Lore, ipsum , fraction, cayerei</p></div>
+            </div>
+            <div class="menu-items">
+                <div>
+                    <h3 id="item-name">Lobster&nbsp;Bisque</h3>
+                    <div class="dashed"></div>
+                    <h3 id="item-price">$5.95</h3>
+                </div>
+                <div><p id="item-description">Lore, ipsum , fraction, cayerei</p></div>
+            </div>
+            <div class="menu-items">
+                <div>
+                    <h3 id="item-name">Lobster&nbsp;Bisque</h3>
+                    <div class="dashed"></div>
+                    <h3 id="item-price">$5.95</h3>
+                </div>
+                <div><p id="item-description">Lore, ipsum , fraction, cayerei</p></div>
+            </div>
+            <div class="menu-items">
+                <div>
+                    <h3 id="item-name">Lobster&nbsp;Bisque</h3>
+                    <div class="dashed"></div>
+                    <h3 id="item-price">$5.95</h3>
+                </div>
+                <div><p id="item-description">Lore, ipsum , fraction, cayerei</p></div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="specials-button" class="specials">
+
+        <div class="background-for-navigation"></div>
+
+        <div class="specials-container">
+            <div class="specials-side-scroll">
+                <h3>Modi set est</h3>
+                <h3>Modi set est</h3>
+                <h3>Modi set est</h3>
+                <h3>Modi set est</h3>
+                <h3>Modi set est</h3>
+                <h3>Modi set est</h3>
+                <h3>Modi set est</h3>
+                <h3>Modi set est</h3>
+            </div>
+
+            <div class="specials-text">
+                <div class="specials-text-heading">
+                    <h2>Check Our </h2>
+                    <h2 id="special-heading">Specials</h2>
+                </div>
+                <div class="specials-text-heading-info">
+                    <p>Ut possimus qui ut temporibus culpa velit evenier modi omnis est adispisci expedita at voluptas atque vitae autem.</p>
+                </div>
+                <div class="specials-text-body">
+                    <h3>Architecto ut aperiam autem id</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, incidunt? Quidem impedit deleniti aliquam in? Libero nesciunt nostrum amet error repellat, voluptatum minima perspiciatis sunt unde, aut animi. Impedit, sit!<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut voluptate odio qui ipsa, dolorem enim, praesentium natus ullam, repellat possimus doloribus velit atque placeat rerum quia? Laborum eveniet saepe quae?</p>
+                </div>
+            </div>
+
+            <div class="specials-image">
+                <img src="specials-1.jpg">
+            </div>
+        </div>
+
+
+    </section>
+
+    <section id="events-button" class="events">
+        <div class="background-for-navigation"></div>
+        <div class="event-container">
+
+            <div class="each-event event-one">
+                <div>
+                    <h2>Organise Your</h2>
+                    <h2 class="color-head">Events</h2>
+                    <h2>in our</h2>
+                </div>
+                <div class="event-one-container"> 
+                    <div>
+                        <img src="event-birthday.jpg">;
+                    </div>
+                    <div class="jdssdj">
+                        <h3>Birthday Party</h3>
+                        <h3 id="price-event">$189</h3>
+                        <p>Lorem ipsum dolor quas fugit eius corpoum illo delectus accusantium cupiditate deleniti tenetur non expedita odio asperiores fuga consectetur aliquid ea dignissimos.<br></p>
+                        <div class="event-features">
+                            <div class="features">
+                                <i class="fa-regular fa-circle-check"></i>
+                                <p>adipisicing elit. Magni quas fugit eius corporis</p>
+                            </div>
+                            <div class="features">
+                                <i class="fa-regular fa-circle-check"></i>
+                                <p>adipisicing elit. Magni quas fugit eius corporis</p>
+                            </div>
+                            <div class="features">
+                                <i class="fa-regular fa-circle-check"></i>
+                                <p>adipisicing elit. Magni quas fugit eius corporis</p>
+                            </div>
+                        </div>  
+                        <p> Magni quas fugit eius corporis, blanditiis praesentium illo delectus accusantium cupiditate deleniti tenetur non expedita odio asperiores fuga consectetur aliquid ea dignissimos</p>
+                    </div>
+                </div>
+            </div>
+            <div class="each-event event-two"></div>
+            <div class="each-event event-three"></div>
+
+        </div>
+
+    </section>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Smooth scroll to section when a nav link is clicked
+            const navLinks = Array.from(document.querySelectorAll('.nav-buttons a'));
+            navLinks.forEach(function (link) {
+                link.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    
+                    const targetSection = document.querySelector(this.getAttribute('href'));
+    
+                    if (targetSection) {
+                        const targetOffset = targetSection.offsetTop;
+    
+                        window.scrollTo({
+                            top: targetOffset,
+                            behavior: 'smooth'
+                        });
+                    }
+                }); 
+            });
+        });
+                function toggleButton(button) {
+            // Remove 'clicked' class from all buttons
+            var buttons = document.querySelectorAll('.button-for-menus button');
+            buttons.forEach(function(btn) {
+                btn.classList.remove('clicked');
+            });
+        
+            // Add 'clicked' class to the clicked button
+            button.classList.add('clicked');
+        }
+
+    </script>
+
+</body>
+</html>
